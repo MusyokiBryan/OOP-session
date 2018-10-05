@@ -22,6 +22,9 @@ firstEmployee.displayEmployee()
 secondEMployee = Employee("John Cena","cenajohn@gmail.com",3000, "janitor")
 secondEMployee.displayEmployee()
 
+fourthEmployee = Employee("Mutua Mulati","mulaticp@gmail.com",1500, "salesman")
+secondEMployee.displayEmployee()
+
 
 class Manager(Employee):
     def __init__(self, name, email, salary, department):
